@@ -1,3 +1,6 @@
+[env]
+CFLAGS_x86_64_m5kos = "-mgeneral-regs-only"
+
 [unstable]
 json-target-spec = true
 build-std-features = ["compiler-builtins-mem"]
